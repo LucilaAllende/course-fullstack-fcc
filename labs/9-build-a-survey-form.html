@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Survey for people</p>
+  <form id="survey-form" action="">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" name="name" id="name" placeholder="Joe Doe" required>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" name="email" id="email" placeholder="joedoe@gmail.com" required>
+    <label for="number" id="number-label">Age</label>
+    <input type="number" name="number" id="number" min="0" max="20" placeholder="3">
+    <select name="dropdown" id="dropdown">
+      <option value="10">Trelew</option>
+      <option value="11">Rawson</option>
+    </select>
+    <input type="radio" name="sex" id="femenine-option" value="f">
+    <label for="femenine-option">F</label>
+    <input type="radio" name="sex" id="masculine-option" value="m">
+    <label for="masculine-option">M</label>
+    <input type="checkbox" name="status" id="working" value="working">
+    <label for="working">Working</label>
+    <input type="checkbox" name="status" id="studying" value="studying">
+    <label for="studying">Studying</label>
+    <input type="checkbox" name="status" id="looking-for-work" value="looking-for-work">
+    <label for="looking-for-work">Looking for work</label>
+    <input type="checkbox" name="status" id="homemaker" value="homemaker">
+    <label for="homemaker">Homemaker</label>
+    <textarea name="aditional-comments" id="aditional-comments"></textarea>
+    <button id="submit" type="submit">Save</button>
+  </form>
+</body>
+</html>
