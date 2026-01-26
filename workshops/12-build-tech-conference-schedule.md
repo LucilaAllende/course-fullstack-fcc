@@ -12,7 +12,7 @@ Transformarás una simple lista de horarios en una herramienta de consulta profe
 * **Segmentación de Datos:** Organizaremos la información utilizando `<thead>`, `<tbody>` y `<tfoot>` para una lectura jerárquica impecable.
 
 #### 2. Relaciones de Datos Complejas
-* **Dominio de `rowspan`:** Aprenderás a fusionar celdas para representar eventos que duran varias horas o sesiones que ocupan múltiples tracks, manteniendo siempre la coherencia del árbol de accesibilidad.
+* **Dominio de `colspan` y `rowspan`:** Aprenderás a fusionar celdas para representar eventos que duran varias horas o sesiones que ocupan múltiples tracks, manteniendo siempre la coherencia del árbol de accesibilidad.
 
 
 #### 3. Contexto y Descripción
