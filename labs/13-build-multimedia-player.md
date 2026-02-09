@@ -22,8 +22,6 @@ Configuraremos un reproductor de video de alto nivel que incluye:
 #### 4. Organización por Secciones Semánticas
 * Utilizaremos elementos `<section>` para separar lógicamente el reproductor de música, el reproductor de video y la documentación textual, creando un flujo de navegación ordenado y profesional.
 
-[Image showing a layout with audio player, video player, and a transcript text area]
-
 ### 💡 ¿Por qué es importante este proyecto?
 Un desarrollador web moderno no solo sube videos; construye **sistemas multimedia inclusivos**. Al finalizar este laboratorio, habrás creado una aplicación que cumple con las pautas de accesibilidad **WCAG**, asegurando que el contenido visual y auditivo tenga siempre un respaldo textual.
 
